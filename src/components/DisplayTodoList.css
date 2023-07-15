@@ -1,0 +1,44 @@
+
+.listTodo input {
+    zoom: 2;
+    accent-color:#FFC42C;
+   font-size: 1px;
+   font-style: oblique;
+}
+.boxmain  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 598px;
+    margin-left: 30%;
+    font-family: sans-serif;
+    border-right-width: 2px;
+    border-right-color: orange;
+}
+.btndelete {
+    border: 0;
+    color: red;
+    font-weight: bold;
+    background-color: transparent;
+}
+#input-title {
+    padding-left: 5px;
+    height: 48px;
+    border-width: 1px;
+    border-color: #eeeeee;
+    margin-bottom: 1px;
+    border-radius: 2px;
+    font-style: italic;
+}
+.box-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    border-right: 2px solid #F5B102;
+    
+}
+.listTodo {
+    display: flex;
+    justify-content: center;
+}
